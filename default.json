@@ -26,6 +26,16 @@
         "github-actions"
       ],
       "groupName": "Github Actions"
+    },
+    {
+      "matchPackageNames": [
+        "@*/*eslint",
+        "eslint-*",
+        "@*eslint*/*",
+        "@prettier/plugin-*",
+        "prettier-plugin-*"
+      ],
+      "groupName": "ESLint Plugins"
     }
   ]
 }
