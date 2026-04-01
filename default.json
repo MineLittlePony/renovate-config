@@ -1,0 +1,25 @@
+{
+  "$schema": "https://docs.renovatebot.com/renovate-schema.json",
+  "extends": [
+    "config:recommended",
+    "config:js-app",
+    ":preserveSemverRange",
+    "schedule:monthly",
+    ":maintainLockFilesMonthly",
+    ":combinePatchMinorReleases"
+  ],
+  "packageRules": [
+    {
+      "matchDepTypes": [
+        "dependencies"
+      ],
+      "groupName": "Production Dependencies"
+    },
+    {
+      "matchPackageNames": [
+        "typescript"
+      ],
+      "groupName": "TypeScript"
+    }
+  ]
+}
