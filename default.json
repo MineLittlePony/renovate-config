@@ -20,6 +20,12 @@
         "typescript"
       ],
       "groupName": "TypeScript"
+    },
+    {
+      "matchManagers": [
+        "github-actions"
+      ],
+      "groupName": "Github Actions"
     }
   ]
 }
