@@ -29,8 +29,8 @@
     },
     {
       "matchPackageNames": [
-        "@*/*eslint",
-        "eslint-*",
+        "@*/*eslint*",
+        "*eslint*",
         "@*eslint*/*",
         "@prettier/plugin-*",
         "prettier-plugin-*"
