@@ -8,7 +8,6 @@
     ":maintainLockFilesMonthly",
     ":combinePatchMinorReleases"
   ],
-  "minimumReleaseAge": "1 day",
   "packageRules": [
     {
       "matchDepTypes": [
